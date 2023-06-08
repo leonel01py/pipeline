@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'Build Demo Application'
         sh ' sh run_build_script.sh'
+        sh 'pwd'
       }
     }
 
